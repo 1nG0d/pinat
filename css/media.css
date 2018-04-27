@@ -1,0 +1,501 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+@media only screen and (max-width: 1024px) {
+	nav.top_menu {
+		font-size: 10px;
+	}
+	.ellipse {
+		width: 100%;
+	}
+	.cross_red {
+		display: none;
+	}
+	.cross_yellow {
+		display: none;
+	}
+	.bootle .consist {
+		 top: 70%;
+   		 left: 44%;
+	}
+	.menu_bottom {
+		line-height: 12px;
+	}
+	.menu_bottom a {
+		font-size: 8px;
+	}
+	.vacant {
+		height: 750px;
+	}
+	form#vacancy {
+		font-size: 12.5px;
+	}
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	nav.top_menu {
+			height: auto;
+			padding-bottom: 35px;
+			display: none;
+		z-index: 102;
+		}
+	
+	nav.top_menu i {
+		font-size: 28px;
+		display: block;
+		color: #fff;
+		margin-top: 10px;
+	}
+	/*-----------------------------Min_menu--------------------------*/
+	nav.min_menu {
+		display: block;
+		padding: 0;
+	}
+	
+	nav.min_menu .logo_bg{
+		height: 35px;
+		width: 35px;
+		font-size: 25px;
+		margin-left: -25px;
+		color: #fff;
+		border-radius: 0 ;
+	}
+	
+	nav.min_menu h3{
+		color: #fff;
+		font-size: 18px;
+		float: left;
+		margin: 0;
+		padding: 5px 40px;
+	}
+	
+	nav.min_menu .left_menu, nav.min_menu .right_menu {
+		margin: 0;
+	}
+	
+	nav.min_menu .right_menu .shopping_cart{
+		padding: 0;
+		margin: 8px 0 0 0 ;
+	}
+	nav.min_menu .right_menu a{
+		display: inline-block;
+		color: #fff;
+		margin: 8px 0 0 15px;
+		font-size: 14px;
+	}
+	
+	nav.min_menu .right_menu a:hover{
+		color: #d13931;
+	}
+	/*-------------------------Min_menu_end__________________*/
+	.top_menu .logo_bg img {
+		top: 5px;
+	}
+		.left_menu, .right_menu	{
+				margin-top: 20px;
+				width: 35%;
+			}
+				
+			.left_menu a, .right_menu a {
+				display: block;
+				margin-top: 10px;
+			} 
+	.internet_shop {
+		right: 10px;
+	}
+	
+	
+	.about_left {
+		margin-top: 30px;
+	}
+	.about_left .logo {
+    margin-bottom: 50px;
+}
+	
+	.about_right p {
+    padding: 0 5px;
+	}
+	
+	.blueStripe img {
+    left: 0px;  
+}
+	.ellipse{
+		display: none;
+	}
+	
+	.prod_part1, .prod_part2{
+		height: auto;
+		padding-bottom: 50px;
+	}
+	
+	.production h2 {
+		margin: 20px 0;
+	}
+	.collection_item{
+		padding: 50px 0;
+	}
+	.pinat_descr{
+		margin: 0;
+		float: right;
+		width: 340px;
+	}
+	.brackets_pinat{
+		display: none;
+	}
+	element.style {
+}
+.pinat_little_emb {
+    bottom: 20px;
+    right: 45%;
+}
+	/*----------------------------------cooperation----------------------------*/
+	.cooperation {
+		height: auto;
+		margin-bottom: 0;
+	}
+	.cooperation_left, .cooperation_right{
+		padding: 20px 0;
+	}
+	
+	/*--------------------------------privat lable----------------------------------*/
+	.privatLabel {
+		height: auto;
+		padding: 30px 0;
+	}
+	.privatLabel  .up_to_begining {
+		bottom: 0;
+	}
+	.vacant {
+		height: auto;
+		padding: 10px;
+	}
+	/*----------------------------Contacts--------------------------------------------*/
+	
+	.contacts {
+		height: auto;
+	}	
+	
+	.contacts img {
+		display: none;
+	}
+	
+	.menu_bottom{
+		height: auto;
+	}
+	.menu_bottom a {
+		margin-left: 25px;
+	}
+	
+	
+	/*----------------------------PinatShop--------------------------------------*/
+	.small,.meddium {
+		margin-top: 0;
+	}
+	.shopitem {
+		margin-top: 20px;
+	}
+	
+	.productInCart h2 {
+    font-size: 15px;
+    text-align: center;
+}	
+	
+	.footer_section {
+		width: 20%;
+		text-align: center;
+	}
+	
+	.footer_section img {
+		
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+	nav.min_menu {
+		display: block;
+		height: 35px;
+		width: 100%;
+		color: #203E5A;
+	}
+	
+	nav.min_menu .left_menu {
+		display: none;
+	}
+	nav.min_menu .right_menu a+a{
+		display: none ;
+	}
+	
+	nav.top_menu .logo_bg {
+		display: block;
+		height: 35px;
+    	width: 35px;
+		margin-left: -20px;
+		border-radius: 0;
+	}
+	nav.top_menu .logo_bg a {
+		display: none;
+	}
+	nav.min_menu .logo_bg {
+		margin-left: -20px;
+	}
+	
+	nav.top_menu .left_menu, nav.top_menu .right_menu {
+		width: 108%;
+		text-align: center;
+		margin: 0;
+	}
+	nav.top_menu .left_menu {
+		margin-top: 30px;
+	}
+	
+	nav.top_menu .internet_shop {
+		right: 33px;
+    	top: 88%;
+	}
+	nav.top_menu .left_menu a, nav.top_menu .right_menu a {
+    	padding-top: 3px;
+   		background: #d13931;
+	}
+	.menu_bottom a {
+    margin-left: 8px;
+}
+	p.soc{
+		text-align: center;
+	}
+	.social {
+		width: 131px;
+    	margin: 0 auto;
+		display: block;
+	}
+	   main {
+    padding-top: 100px;
+}
+	.steps {
+		margin: 10px 0 50px 10px;
+	}
+	.steps a, .steps span {
+		font-size: 10px;
+	}
+
+	.footer_section {
+		width: 98%;
+		margin-top: 10px;
+	}
+	
+	nav.top_menu i {
+		margin-top: 5px;
+	}
+	.slider_header {
+		display: none;
+	}
+	.min_bg {
+		display: block;
+		min-height: 720px;
+		background: url(../img/bg1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+    	background-position: 32%;
+		position: relative;
+	}
+	.mission {
+		display: none;
+	}
+	
+	header .owl-pagination {
+		display:none;
+	}
+	.header_content img {
+    width: 131px;
+    height: 86px;
+    margin-left: 0;
+	}
+	.language {
+		position: absolute;
+		top: 0;
+    	left: 20px;
+		margin-top: 70px;
+	}
+	.content1 {
+		position: absolute;
+		bottom: 20px;
+		right: 20%;
+	}
+
+	.about_left .logo {
+		margin-right: 30px;
+		height: 50px;
+	}	
+	.about_right {
+		text-align: justify;
+   	 	margin-right: 20px;
+		margin-top: 0;
+	}
+	.aboutCompany h4 {
+		margin-left: 20px;
+	}
+	
+	.blueStripe {
+		line-height: 20px;
+		height: 120px;
+		text-align: center;
+	}
+	
+	.blueStripe span {
+		display: block;
+		margin-left: 99px;
+    	font-size: 13px;
+	}
+	.boxes_four {
+    width: 217px;
+	}
+	.collection_item {
+    	padding: 10px 0; 
+    	text-align: justify;
+		margin: 0;
+	}
+	
+	.pinat_little_emb {
+    bottom: 0px;
+	}
+	.menu_bottom a {
+		font-size: 9px;
+	}
+	.collection_item .bootle {
+		margin: 0;
+		padding: 0;
+	}
+	.production .up_to_begining {
+    bottom: 135px;
+}
+	
+	.pinat_descr {
+		height: auto;
+		width: 300px;
+	}
+	.pinat_little_em {
+		bottom: 0;
+	}
+	
+	.cooperation_left .namePhone,
+	.cooperation_left .emailQuastion {
+    width: 205px;
+	}
+	.cooperation_left form button[type="submit"] {
+    width: 290px;
+	}
+	
+	.boxes_six {
+    width: 215px;
+}
+.privateLeft, .privateRight {
+	width: 300px;
+	}
+	
+	.ellipse_green {
+		display: none;
+	}
+	h4.wh {
+		color: #fcfcfc;
+	}
+	
+	.vacant_wrapper h4, .vacant_wrapper p {
+		display: none;
+	}
+	.tac {
+		text-align: center;
+	}
+	
+	.vacant form i {
+		display: none;
+	}
+	
+footer iframe {
+		width: 300px
+	}
+	
+	.goToShop {
+	display: none;
+	}
+	.emblem {
+		display: none;
+	}
+	.productInCart img.meddium{
+		margin: 0;
+	}
+	.confirmLnk, .continueLnk {
+		float: none;
+	}
+	.footer_section>img {
+    display: block;
+		margin-left: 135px;}
+	
+	.mainForm input, .mainForm textarea {
+		width: 90%;
+	}
+	
+	.agreementLink input{
+		width: 15px;
+	}
+	.delivery h3 {
+		font-size: 15px;
+	}
+	
+
+	.social a {
+		margin: 0;
+	}
+	
+	.all_rights{
+		margin-left: 20px;
+	}
+	p.soc {
+		margin: 0;
+	}
+	
+	
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+}

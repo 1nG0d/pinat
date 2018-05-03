@@ -904,6 +904,9 @@ header .owl-theme .owl-controls .owl-page span {
 		height: 285px;
 		margin: 0 auto 20px auto;
 	}
+	.map2 iframe:nth-child(2){
+		display: none;
+	}
 		.contacts h4 {
 			display: inline-block;
 			color: #fff;

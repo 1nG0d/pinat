@@ -100,6 +100,10 @@ hr{
 					margin-left: 25px;
 				}
 
+				nav.min_menu .right_menu a.link{
+					display: none ;
+				}
+
 				.internet_shop {
    					background: #d13931;
 					height: 45px;

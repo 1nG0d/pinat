@@ -196,7 +196,7 @@ span#cartCntItems {
 	color: #203E5A;
 	display: inline-block;
 	position: relative;
-	z-index: 120;
+	z-index: 100;
 	margin-left: 5px;
 }	
 .shopItem i:hover{

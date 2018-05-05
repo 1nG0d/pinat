@@ -39,7 +39,7 @@ loadcart();
 		return false;
 	});
 	
-	$("#vacancy").submit(function() {
+	$("#vacancy_form").submit(function() {
 		$.ajax({
 			type: "GET",
 			url: "../mail/vacanxcMail.php",

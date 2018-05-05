@@ -30,6 +30,12 @@ display: table;
 clear: both;
 }
 
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
 body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
@@ -881,7 +887,7 @@ header .owl-theme .owl-controls .owl-page span {
 				font-size: 18px;
 			}
 .file_add {
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	width: 85px;
 }
 /*-----------------Contacts---------------*/
@@ -891,7 +897,7 @@ header .owl-theme .owl-controls .owl-page span {
 	background-size: cover;
 	text-align: center;
 	position: relative;
-	margin: 0 auto;
+	margin: 25px auto 0;
 }
 		.contacts .section_name{
 			margin-bottom: 30px;
